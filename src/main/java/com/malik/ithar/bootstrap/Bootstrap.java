@@ -45,6 +45,8 @@ public class Bootstrap implements CommandLineRunner{
             .build();
         userRepository.save(user3);
 
-        log.info("TOTAL INITIAL USERS COUNT '{}' :", userRepository.count());
+        log.info("##########################");
+        log.info("TOTAL USERS CREATED '{}' :", userRepository.count());
+        log.info("##########################");
     }
 }

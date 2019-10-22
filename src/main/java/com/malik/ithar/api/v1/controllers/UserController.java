@@ -3,6 +3,7 @@ package com.malik.ithar.api.v1.controllers;
 import com.malik.ithar.api.v1.services.UserService;
 import com.malik.ithar.api.v1.model.UserDTO;
 import com.malik.ithar.api.v1.model.UsersListDTO;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
@@ -48,6 +49,7 @@ public class UserController {
     }
 
     // DELETE
+    @ApiOperation(value = "Deletes user if user exists. In either case 200 is returned")
     @DeleteMapping({"/{id}"})
     @ResponseStatus(HttpStatus.OK)
     public void deleteUser(@PathVariable Long id){

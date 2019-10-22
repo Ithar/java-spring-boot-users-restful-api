@@ -8,6 +8,8 @@ Basic users RESTful API with Swagger Documentation
 
 #### Features 
 - API with MapStruct & Swagger 2.0 Documentation  
+- SpringFox for swagger
+- Swagger Annotation @Api, @ApiModelProperty
 
 ## 
 
@@ -24,7 +26,9 @@ Stack  | version |
 *Code Coverage* | JaCoCo + Codecov
 
 ## Application Run
-Postman: http://localhost:8080/api/v1/users
+- Postman: http://localhost:8080/api/v1/users
+- Swagger: http://localhost:8080/swagger-ui.html
+- Swagger yml: http://localhost:8080/v2/api-docs
  
 ## Application DB
-http://localhost:8080/h2-console 
+- http://localhost:8080/h2-console
