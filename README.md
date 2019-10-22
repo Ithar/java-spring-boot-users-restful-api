@@ -1,6 +1,7 @@
 
+[![CircleCI](https://circleci.com/gh/Ithar/java-spring-users-restful-api.svg?style=svg)](https://circleci.com/gh/Ithar/java-spring-users-restful-api)
 
-
+[![codecov](https://codecov.io/gh/Ithar/java-spring-users-restful-api/branch/master/graph/badge.svg)](https://codecov.io/gh/Ithar/java-spring-users-restful-api)
 
 # java-spring-users-restful-api
 Basic users RESTful API with Swagger Documentation
