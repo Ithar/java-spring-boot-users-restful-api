@@ -10,6 +10,7 @@ Basic users RESTful API with Swagger Documentation
 - API with MapStruct & Swagger 2.0 Documentation  
 - SpringFox for swagger
 - Swagger Annotation @Api, @ApiModelProperty
+- Mock MCV Tests
 
 ## 
 
